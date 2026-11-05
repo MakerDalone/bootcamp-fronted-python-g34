@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+    <main class="container">
+        <h1>Formularios + Inputs</h1>
+        <form>
+            <h2>Inputs</h2>
+            <label for="input1">Input tipo texto</label>
+           <input id="input1" placeholder="Ingresa algún texto"/> 
+       <label>
+        Input (solo lectura)
+        <input readonly value="copia este código" placeholder="Input solo lectura" type="text"/>
+       </label>
+
+       <label>
+        Input (desactivado)
+        <input disabled placeholder="Input desactivado" type="text"/>
+       </label>  
+
+       <label>
+        Input (number)
+        <input placeholder="Edad Ej. 18" type="number"/>
+       </label>  
+
+
+        <label>
+        Input (number)
+        <input placeholder="Edad Ej. 18" type="number" min="18" max="90"/>
+       </label> 
+       
+        <label>
+        Input (mail)
+        <input placeholder="Correo" type="email"/>
+       </label>        
+
+        <label>
+        Input (rango)
+        <input type="range" min="0" max="100" step="10"/>
+       </label>   
+
+        <label>
+        Input (input teléfono)
+        <input type="tel" placeholder="Número de teléfono"/>
+       </label>   
+
+        <label>
+        Input (input teléfono)
+        <input type="url" placeholder="ej. misitio.com"/>
+       </label>
+
+        <label>
+        Input (Password)
+        <input type="password" placeholder="Password"/>
+       </label>
+
+        <label>
+        Input (Tipo color)
+        <input type="color"/>
+       </label>
+
+        <label>
+        Input (Busqueda)
+        <input type="search" placeholder="Buscar..."/>
+       </label>
+
+        <label>
+        Input (Archivo-Seleccionar un archivo)
+        <input type="file" accept=".png" placeholder="Seleccionar archivo"/>
+       </label>
+
+        <label>
+        Input (Archivo - seleccionar multiples archivos)|
+        <input type="file" multiple accept=".png" placeholder="Seleccionar archivos"/>
+       </label>
+
+        <label>
+        Input (hiden)
+        <input type="hidden" valor="datos ocultos"/>
+       </label> 
+ 
+        <label>
+        Input (Submit)
+        <input type="submit" value="Guardar"/>
+       </label> 
+
+        <label>
+        Input (Boton)
+        <input type="button" value="Hola soy un boton"/>
+       </label> 
+
+    </form>
+        
+    <form>
+        <h2>Input tipo fecha</h2>
+
+        <label>
+            Input tipo fecha y hora
+            <input type="datetime-local" />
+        </label>
+
+        <label>
+            Input tipo fecha y hora
+            <input type="date" />
+        </label>
+
+
+        <label>
+            Input tipo fecha y hora
+            <input type="time" />
+        </label>
+
+        <label>
+            Input tipo fecha y hora
+            <input type="week" />
+        </label>
+
+        <label>
+            Input tipo fecha y hora
+            <input type="month" />
+        </label>
+
+    </form>
+
+    <form>
+    <h2>Textarea</h2>
+    
+    <label>
+
+        <textarea placeholder="Escribe algo..." rows="4" cols="6">Hola a todos       
+        </textarea>
+    </label>
+
+    </form>
+
+    </main>
+</body>
+</html>
