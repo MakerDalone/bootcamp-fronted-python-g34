@@ -18,6 +18,8 @@ body {
 
 h1 {
   font-weight: 600; /* Semibold */
+  font-size: 20px;
+  color: #182033;
 }
 
 p,
@@ -34,4 +36,6 @@ img {
 main {
   width: 320px;
   background-color: white;
+  padding: 24px;
+  border-radius: 12px;
 }
