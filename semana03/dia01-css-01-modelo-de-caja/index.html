@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS: Modelo de Caja</title>
+    <style>
+      .box {
+        background-color: red;
+
+        width: 200px;
+        height: 50px;
+
+        margin: 10px; /* Espacio externo */
+        margin: 16px 20px 30px; /* Espacio externo */
+        border: 5px solid green;
+        padding: 10px; /* Espacio interno */
+
+        box-sizing: content-box; /* Por defecto */
+        box-sizing: border-box; /* Por defecto */
+      }
+      .bloque {
+        background-color: lightcoral;
+        display: flex;
+      }
+      .enlinea {
+        background-color: lightgreen;
+        display: inline;
+      }
+
+      .enlinea-bloque {
+        background-color: lightpink;
+        display: inline-block;
+      }
+      .tarjeta {
+        box-sizing: border-box;
+        width: 300px;
+        padding: 24px;
+        border: 2px solid seagreen;
+        margin: 16px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Soy una caja</div>
+
+    <!-- Tipos de caja -->
+    <div class="bloque">BLOQUE</div>
+    <div class="enlinea">ENLINEA</div>
+    <div class="enlinea">ENLINEA</div>
+    <div class="enlinea">ENLINEA</div>
+    <div class="enlinea-bloque">ENLINEA Y BLOQUE</div>
+
+    <article class="tarjeta">
+      <h2>Plan básico</h2>
+      <p>Ideal para empezar a publicar tus proyectos.</p>
+    </article>
+  </body>
+</html>
