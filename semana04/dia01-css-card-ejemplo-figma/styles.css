@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 600; /* Semibold */
+}
+
+p,
+span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 320px;
+  background-color: white;
+}
