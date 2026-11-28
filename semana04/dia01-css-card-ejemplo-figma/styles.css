@@ -8,8 +8,10 @@ html {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #F5F5F5;
+
   font-family: "Inter", sans-serif;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,20 +24,46 @@ h1 {
   color: #182033;
 }
 
-p,
-span {
-  font-weight: 400;
+p, span {
+  font-weight: 400; /* Regular */
   font-size: 14px;
+  color: #626B7D;
+  line-height: 20px;
 }
 
 img {
+  /* RWD para imágenes */
   max-width: 100%;
   height: auto;
 }
 
 main {
   width: 320px;
+
   background-color: white;
+
   padding: 24px;
+
   border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: #4F46E5;
+  color: white;
+
+  font-weight: 600;
+  font-size: 14px;
 }
